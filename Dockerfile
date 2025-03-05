@@ -11,5 +11,3 @@ ENV MB_DB_HOST=primary.smartges-metabase-db--6k9vlsyv7ksg.addon.code.run
 
 # Expose port 3000
 EXPOSE 3000
-
-CMD ["java", "-jar", "/app/metabase.jar"]
